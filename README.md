@@ -1,5 +1,3 @@
-# FILL IN INFO ABOUT YOUR GAME HERE. 
+# ASSIGNMENT FOR CODE LAB 1 IN CAPS
 
-DO NOT LEAVE IT LIKE THIS!!!
-
-Please? Please, give me content. I'm begging you. It's not that hard. Thanks.
+Repository with cool Unity code and stuff or maybe not who knows what we're doing here. 
