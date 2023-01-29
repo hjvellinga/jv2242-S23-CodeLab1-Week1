@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class ClashCollision : MonoBehaviour
 {  private Rigidbody rb;
     // Start is called before the first frame update
 
@@ -18,9 +18,9 @@ public class Collision : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)  //function that states events on specific instance 'collision' of type collision
     {
-        if (collision.gameObject.name == "redCylinder")
+        if (collision.gameObject.name == "redCylinder") //refers to game object with which player collides
         {
             Debug.Log("Hit red cylinder"); //collision statement with cylinderAvoid (redCylinder)
         }
