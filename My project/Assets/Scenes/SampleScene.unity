@@ -233,9 +233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f64774d6b0a2fe44a63a854c31129d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AlleyBorder: 10
-  AlleySpeed: 0.5
-  AlleySpeedIncrease: 0.001
+  alleyBorder: 50
+  alleySpeed: 0.5
+  alleySpeedIncrease: 0.001
 --- !u!1 &384862669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +1029,7 @@ GameObject:
   - component: {fileID: 2068053873}
   - component: {fileID: 2068053872}
   - component: {fileID: 2068053871}
+  - component: {fileID: 2068053877}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1144,3 +1145,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2068053877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068053870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac65017fce9f8441a555b7cd7b514e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redCylinder: {fileID: 1816452403}

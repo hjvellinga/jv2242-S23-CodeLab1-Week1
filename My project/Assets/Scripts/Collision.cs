@@ -20,7 +20,7 @@ public class Collision : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.redCylinder)
+        if (collision.gameObject.name == "redCylinder")
         {
             Debug.Log("Hit red cylinder"); //collision statement with cylinderAvoid (redCylinder)
         }
