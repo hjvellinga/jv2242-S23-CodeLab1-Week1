@@ -5,18 +5,19 @@ using UnityEngine.UI;
 
 public class ScoreCounter : MonoBehaviour
 {
-    public static int ScoreValueRed = 0;  
-    public Text scoreRed;
-    public Text scoreGreen; 
+    public static int scoreValue = 0;
+
+    public Text scoreText; 
     // Start is called before the first frame update
     void Start()
     {
-        scoreRed = GetComponent<Text>();
+       scoreText = GetComponent<Text>();
+      // scoreText.text = scoreValue.ToString() + " POINTS";
     }
 
     // Update is called once per frame
     void Update()
     {
-        scoreRed.text = "Red hits: " + ScoreValueRed;
+        scoreText.text = "Points: " + scoreValue;
     }
 }
